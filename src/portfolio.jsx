@@ -68,37 +68,38 @@ const CERTIFICATES = [
   {
     id: "sertif1",
     image: "/sertifikat/sertif1.jpeg",
-    title: "Belajar Dasar Pemrograman Web",
-    issuer: "CODEPOLITAN",
-    year: "2025",
-    desc: "Mempelajari HTML, CSS, dan dasar-dasar pembangunan halaman web responsif.",
+    title: "Kuliah Umum: IoT: Challenge, Careers, and Modern Impact",
+    issuer: "HIMAFORKA — 2024",
+    year: "2024",
+    desc: "Berkontribusi aktif sebagai panitia pelaksana dalam menyelenggarakan kuliah umum yang membahas tantangan, peluang karier, serta dampak modern dari Internet of Things (IoT).",
     color: "#C8A96E",
   },
   {
     id: "sertif2",
     image: "/sertifikat/sertif2.jpeg",
-    title: "Belajar Dasar JavaScript",
-    issuer: "CODEPOLITAN",
-    year: "2025",
-    desc: "Memahami fundamental JavaScript, termasuk variabel, fungsi, dan DOM manipulation.",
+    title: "Kuliah Umum: Engineering the Digital World",
+    issuer: "HIMAFORKA — 2026",
+    year: "2026",
+    desc: "Menjadi peserta dalam kegiatan kuliah umum untuk memperluas wawasan mengenai perkembangan teknologi dan strategi menghadapi dunia digital.",
     color: "#C8A96E",
   },
   {
     id: "sertif3",
     image: "/sertifikat/sertif3.jpeg",
-    title: "Belajar Membuat Aplikasi Back-End",
-    issuer: "CODEPOLITAN",
+    title: "Latihan Kader XXI",
+    issuer: "HIMAFORKA — 2025",
     year: "2025",
-    desc: "Membangun REST API menggunakan Node.js dengan Express dan pengelolaan database.",
+    desc: "Berperan sebagai panitia dalam menyukseskan program Latihan Kader ke-XXI guna membangun jiwa kepemimpinan dan memperkuat organisasi mahasiswa.",
     color: "#C8A96E",
   },
   {
     id: "sertif4",
     image: "/sertifikat/sertif4.jpeg",
-    title: "Belajar Dasar Database",
-    issuer: "CODEPOLITAN",
-    year: "2025",
-    desc: "Memahami konsep database relasional, SQL, dan perancangan skema data.",
+    title:
+      "Kuliah Umum: Strategi Cerdas Mengelola Literatur Ilmiah Menggunakan Mendeley",
+    issuer: "STMIK Palangkaraya — 2026",
+    year: "2026",
+    desc: "Mengikuti pelatihan intensif sebagai peserta untuk memahami tata cara pengelolaan referensi karya ilmiah secara terstruktur dan efisien menggunakan aplikasi Mendeley..",
     color: "#C8A96E",
   },
 ];
@@ -700,7 +701,7 @@ function HeroSection() {
             }}
           >
             <img
-              src="/profil.jpeg"
+              src="/Profil.jpeg"
               alt="Ayub Wicaksono"
               style={{
                 width: "100%",
@@ -1053,7 +1054,12 @@ function CertificatesSection() {
                 <img
                   src={cert.image}
                   alt=""
-                  style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    display: "block",
+                  }}
                 />
               </div>
               <div
