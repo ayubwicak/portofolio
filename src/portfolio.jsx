@@ -701,7 +701,7 @@ function HeroSection() {
             }}
           >
             <img
-              src="/Profil.jpeg"
+              src="/profil.jpeg"
               alt="Ayub Wicaksono"
               style={{
                 width: "100%",
