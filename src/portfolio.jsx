@@ -38,7 +38,7 @@ const PROJECTS = [
     tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
     year: "2024",
     color: "#C8A96E",
-    link: "https://github.com/ayubwicak/inventaris-toko",
+    link: "https://github.com/rigelia1911/Basic_Store_Inventory_Management_System/tree/main/inventaris-toko",
     demo: "https://example.com",
   },
 ];
